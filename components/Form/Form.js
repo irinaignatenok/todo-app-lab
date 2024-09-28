@@ -7,8 +7,6 @@ export default function Form({ navigation, onAddTask }) {
 
     const [taskDescription, setTaskDescription] = useState('');
     const [taskDone, setTaskDone] = useState(false);
-    const [tasks, setTasks] = useState([]);
-    const [savingData, setSavingData] = useState(false);
     const [errorMessage, setErrorMessage] = useState([]);
 
     const handleDescriptionChange = (value) => {

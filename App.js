@@ -46,9 +46,7 @@ export default function App() {
     setTasks(filteredTasks)
   }
 
-  // useEffect(() => {
-  //   console.log('Tasks updated:', tasks);
-  // }, [tasks]);
+
 
   return (
     <NavigationContainer>
